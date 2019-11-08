@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="lol-icon">
+    <file>lol-logo.png</file>
+  </qresource>
+</RCC>
