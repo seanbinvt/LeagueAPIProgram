@@ -756,6 +756,11 @@ class Ui_MainWindow(object):
         self.playerThreeN = None
         self.playerFourN = None
         self._translate = QtCore.QCoreApplication.translate
+        
+        self.summoner1Input.setStyleSheet("background-color: white")
+        self.summoner2Input.setStyleSheet("background-color: white")
+        self.summoner3Input.setStyleSheet("background-color: white")
+        self.summoner4Input.setStyleSheet("background-color: white")
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
